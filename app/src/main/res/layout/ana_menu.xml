@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_araba_al"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:drawableTop="@drawable/baseline_directions_car_24"
+                android:textSize="15sp"
+                android:text="@string/araba_al"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:backgroundTint="@color/movus_renk"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_araba_liste"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/baseline_list_alt_24"
+                android:text="@string/araba_liste"
+                style="@style/AppTheme.RoundedCornerMaterialButton" />
+
+            <Button
+                android:id="@+id/btn_araba_birak"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="@string/araba_bırak"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:drawableTop="@drawable/baseline_car_rental_24" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

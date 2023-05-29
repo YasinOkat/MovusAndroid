@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Movus Android</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris">Giriş</string>
+    <string name="araba_al">Araba Al</string>
+    <string name="araba_liste">Kullanılan Arabalar</string>
+    <string name="gidilen_yer">Gideceğiniz yer</string>
+    <string name="gidisamaci">Gidiş Amacınız</string>
+    <string name="araba_cikis">Çıkış Yap</string>
+    <string name="araba_bırak">Araba Bırak</string>
+    <string name="araba_giris">Arabayı bırak</string>
+    <string name="km">Kilometre giriniz</string>
+    <string name="araba_sec">Araba seçiniz</string>
+</resources>
