@@ -18,6 +18,21 @@ To run the app on your local machine, follow these steps:
    2. Build and run the app on an emulator or physical device.
    3. Make sure to update the URL constants in the code to match the URL of your backend server.
 
+# Screenshots
+
+<p align="center">
+  <img src="screenshots/login_page_dark.jpg" alt="Login Page" width="300">
+  <img src="screenshots/main_menu_dark.jpg" alt="Main Menu" width="300">
+</p>
+<p align="center">
+  <img src="screenshots/araba_al_dark.png" alt="Araba Al" width="300">
+  <img src="screenshots/araba_birak_dark.jpg" alt="Araba Birak" width="300">
+</p>
+<p align="center">
+  <img src="screenshots/araba_liste_dark.jpg" alt="Araba Liste" width="300">
+</p>
+
+
 # Dependencies
 
 The app uses the following dependencies:
