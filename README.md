@@ -52,10 +52,6 @@ The app interacts with the following API endpoints on the backend server:
     ARABA_BIRAK_ENDPOINT: Return the car.
     URL_GET_KULLANILAN_ARABALAR: Fetch the list of the used cars.
     LOGIN_ENDPOINT: Returns the user list.
-    
-# Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
 # License
 
